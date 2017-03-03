@@ -1,6 +1,12 @@
-spring:
-  application:
-    name: api-gateway
-
 server:
   port: 8889
+
+#spring:
+#  application:
+#    name: api-gateway
+
+logging:
+  level:
+    com.netflix.discovery: 'OFF'
+    org.springframework.cloud: 'DEBUG'
+
